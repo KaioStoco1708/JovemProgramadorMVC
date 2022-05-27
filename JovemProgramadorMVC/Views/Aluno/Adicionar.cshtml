@@ -1,0 +1,40 @@
+﻿@model AlunoModel
+
+@if (TempData["MensagemEndereco"] != null)
+{
+    <div class="alert-success col-4">
+        @TempData["MensagemEndereco"]
+    </div>
+}
+
+<form asp-controller="Aluno" asp-action="Inserir" method="post">
+    <div class="mb-3">
+        <label for="nomeAluno" class="form-label">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control col-md-6" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="idadeAluno" class="form-label">Idade</label>
+        <input type="text" asp-for="Idade" class="form-control col-md-1" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="contatoAluno" class="form-label">Contato</label>
+        <input type="text" asp-for="Contato" class="form-control col-md-2" placeholder="(00)00000-0000">
+    </div>
+
+    <div class="mb-3">
+        <label for="emailAluno" class="form-label">Email</label>
+        <input type="email" asp-for="Email" class="form-control col-md-2" placeholder="exemplo@gmail.com">
+    </div>
+
+    <div class="mb-3">
+        <label for="cepAluno" class="form-label">Cep</label>
+        <input type="text" asp-for="Cep" class="form-control col-md-2" placeholder="00000-000" required>
+    </div>
+
+    <div class="text-center">
+        <button class="btn btn-primary col-1" type="submit" role="button">Adicionar</button>
+        <a class="btn btn-primary col-1" type="button" asp-controller="Aluno" asp-action="Index">Voltar</a>
+    </div>
+</form>
