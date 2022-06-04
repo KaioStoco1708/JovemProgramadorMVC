@@ -1114,3 +1114,4 @@ C:\Users\kaio.oliveira\OneDrive\JovemProgramadorMVC\JovemProgramadorMVC\bin\Debu
 C:\Users\kaio.oliveira\OneDrive\JovemProgramadorMVC\JovemProgramadorMVC\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kaio.oliveira\OneDrive\JovemProgramadorMVC\JovemProgramadorMVC\obj\Debug\net5.0\Razor\Views\Aluno\Editar.cshtml.g.cs
 C:\Users\kaio.oliveira\OneDrive\JovemProgramadorMVC\JovemProgramadorMVC\obj\Debug\net5.0\Razor\Views\Filtros\Index.cshtml.g.cs
+C:\Users\kaio.oliveira\OneDrive\JovemProgramadorMVC\JovemProgramadorMVC\obj\Debug\net5.0\Razor\Views\Informacoes\Index.cshtml.g.cs
